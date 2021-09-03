@@ -40,10 +40,10 @@ public class HelloWorld {
 //        x = x / y;
 //        y = y - x;
 
-        System.out.println(Integer.MAX_VALUE);
-
-        int testInteger = 2147483647;
-        System.out.println(++testInteger);
+//        System.out.println(Integer.MAX_VALUE);
+//
+//        int testInteger = 2147483647;
+//        System.out.println(++testInteger);
 
     }
 
