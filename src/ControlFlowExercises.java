@@ -54,32 +54,45 @@ public class ControlFlowExercises {
 //                System.out.println(i);
 //
 //            }
-        String promptUser = "";
-        do {
-            Scanner scanner = new Scanner(System.in);
 
-            System.out.println("choose a number to go to: ");
-            int promptNumber = Integer.parseInt(scanner.nextLine());
+//        String promptUser = "";
+//        do {
+//            Scanner scanner = new Scanner(System.in);
+//
+//            System.out.println("choose a number to go to: ");
+//            int promptNumber = Integer.parseInt(scanner.nextLine());
+//
+//            System.out.println("here is your table");
+//            System.out.printf("number ");
+//            System.out.printf("squared ");
+//            System.out.printf("cubed ");
+//            for (int i = 1; i <= promptNumber; i++) {
+//                int squared = ((int) Math.pow(i, 2));
+//                int cubed = ((int) Math.pow(i, 3));
+//                System.out.println(" ");
+//                System.out.printf(" " + i);
+//                System.out.printf(" ");
+//                System.out.printf(" " + squared);
+//                System.out.printf(" ");
+//                System.out.printf(" " + cubed);
+//            }
+//            System.out.println("");
+//            System.out.printf(" do you wish to continue? ");
+//            promptUser = scanner.nextLine();
+//        } while(promptUser.equals("no"));
 
-            System.out.println("here is your table");
-            System.out.printf("number ");
-            System.out.printf("squared ");
-            System.out.printf("cubed ");
-            for (int i = 1; i <= promptNumber; i++) {
-                int squared = ((int) Math.pow(i, 2));
-                int cubed = ((int) Math.pow(i, 3));
-                System.out.println(" ");
-                System.out.printf(" " + i);
-                System.out.printf(" ");
-                System.out.printf(" " + squared);
-                System.out.printf(" ");
-                System.out.printf(" " + cubed);
-            }
-            System.out.println("");
-            System.out.printf(" do you wish to continue? ");
-            promptUser = scanner.nextLine();
-        } while(promptUser.equals("no"));
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What grade did you receive? ");
+        int userGrade = Integer.parseInt(scanner.nextLine());
+
+        switch (userGrade / 10) {
+            case 10 -> System.out.println(userGrade + " You got an A+");
+            case 9 -> System.out.println(userGrade + " You Got an A!");
+            case 8 -> System.out.println(userGrade + " You got a B!");
+            case 7 -> System.out.println(userGrade + " You got a C...");
+            default -> System.out.println(userGrade + " You failed");
+        }
 
 
 
