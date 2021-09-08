@@ -82,18 +82,30 @@ public class ControlFlowExercises {
 //        } while(promptUser.equals("no"));
 
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("What grade did you receive? ");
-        int userGrade = Integer.parseInt(scanner.nextLine());
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("What grade did you receive? ");
+//        int userGrade = Integer.parseInt(scanner.nextLine());
 
-        switch (userGrade / 10) {
-            case 10 -> System.out.println(userGrade + " You got an A+");
-            case 9 -> System.out.println(userGrade + " You Got an A!");
-            case 8 -> System.out.println(userGrade + " You got a B!");
-            case 7 -> System.out.println(userGrade + " You got a C...");
-            default -> System.out.println(userGrade + " You failed");
-        }
+//        switch (userGrade / 10) {
+//            case 10 -> System.out.println(userGrade + " You got an A+");
+//            case 9 -> System.out.println(userGrade + " You Got an A!");
+//            case 8 -> System.out.println(userGrade + " You got a B!");
+//            case 7 -> System.out.println(userGrade + " You got a C...");
+//            default -> System.out.println(userGrade + " You failed");
+//        }
 
+//        int computePI = Math.PI();
+//        System.out.println(computePI);
+
+//            int num1 = 0, num2 =1;
+//
+//            for(int i = 0; i<= 20; i++){
+//                System.out.println(num1 + " ");
+//
+//            int num3 = num2 + num1;
+//            num1 =num2;
+//            num2 = num3;
+//            }
 
 
 
