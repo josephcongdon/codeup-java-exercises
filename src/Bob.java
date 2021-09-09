@@ -4,15 +4,18 @@ public class Bob {
     public static void main(String[] args) {
 
        Scanner scanner = new Scanner(System.in);
+       String listenBob = "";
         System.out.println("Time to talk to Bob....");
-       String listenBob = scanner.next();
        do{
+            listenBob = scanner.next();
+            if(listenBob.contains("."))
+                System.out.println("* grunting noise*");
             if(listenBob.contains("!"))
                 System.out.println("Whoa chill out bro! You're not my real father!");
             if(listenBob.contains("?"))
                 System.out.println("sure");
-       }while(listenBob.endsWith("?") || listenBob.endsWith(".") || listenBob.endsWith("!"));
-
+       }while(listenBob.length() > 1);
+        System.out.println("fine be a jerk");
 
     }
 }
