@@ -14,7 +14,16 @@ public class MethodWarmup {
 
     public static void main(String[] args) {
 
-        System.out.println(getDifference(80 , 32));
+//        System.out.println(getDifference(80 , 32));
 //        System.out.println(getDoubleDifference(10-5, 7-3));
+        help();
+    }
+    public static String help(){
+        int me = 5;
+        String you = "hi";
+        System.out.println(you + me);
+        return you + me;
     }
 }
+
+
