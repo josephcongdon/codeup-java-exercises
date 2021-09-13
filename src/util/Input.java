@@ -39,4 +39,6 @@ public class Input {
         scanner = new Scanner(System.in);
 
     }
+
+
 }

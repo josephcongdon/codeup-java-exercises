@@ -1,24 +1,46 @@
 public class Person {
-private String name;
+//    public String name;
+//
+////    public Person(String name) {
+////    }
+//
+//    public String getName(){
+//        return name;
+//    }
+//
+//    public void setName(String name){
+//        this.name = name;
+//    }
+//
+//    public void sayHello(){
+//        System.out.println("hello " + name);
+//    }
+//
+//    public static void main(String[] args) {
+//        Person penny = new Person();
+//        penny.name = "Penny";
+//        penny.sayHello();
+//
+//
+//        Person person1 = new Person("John");
+//        Person person2 = new Person("John");
+//        System.out.println(person1.getName().equals(person2.getName()));
+//        System.out.println(person1 == person2);
+//
+//        Person person1 = new Person("John");
+//        Person person2 = person1;
+//        System.out.println(person1 == person2);
+//
+//        Person person1 = new Person("John");
+//        Person person2 = person1;
+//        System.out.println(person1.getName());
+//        System.out.println(person2.getName());
+//        person2.setName("Jane");
+//        System.out.println(person1.getName());
+//        System.out.println(person2.getName());
+//    }
 
 
-    public String getName(){
-        return name = "Penny";
-//TODO: return the person's name
-    }
 
-    public void setName(String name){
 
-//TODO: change the name property to the passed value
-    }
-    public void sayHello(){
-        System.out.println("Hello there I am " + name + "! nice to meet you.");
-//TODO: print a message to the console using the person's name
-    }
-
-    public static void main(String[] args) {
-        Person person = new Person();
-        person.getName();
-
-    }
 }
