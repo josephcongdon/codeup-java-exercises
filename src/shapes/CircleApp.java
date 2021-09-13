@@ -1,12 +1,14 @@
 package shapes;
-import java.util.Scanner;
+import util.Input;
+
 public class CircleApp {
-
-    public static int getRadius(){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the radius of a circle: ");
-        int userRadius = sc.nextInt();
-        return userRadius;
+    public static void main(String[] args) {
+        String prompt = "enter the radius of a circle: ";
+        Input input = new Input();
+        double radius = input.getDouble();
+        Circle circle = new Circle(radius);
+        double area = circle.getArea();
+        double circumference  = circle.getCircumference();
+        System.out.printf("The area %.2f circumference is %.2f%n", area, circumference);
     }
-
 }

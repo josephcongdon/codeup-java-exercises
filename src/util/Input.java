@@ -34,6 +34,12 @@ public class Input {
             }
             return userInput;
         }
+        public double getDouble(){
+        System.out.println("Enter a number: ");
+        double userInput = scanner.nextDouble();
+        return userInput;
+        }
+
 
     public Input(){
         scanner = new Scanner(System.in);
