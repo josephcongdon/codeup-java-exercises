@@ -8,8 +8,6 @@ public class ArraysExercises {
 //            Find the sum of all five double values using an enhanced for loop.
 
 
-
-
 public static Person[] addPerson(Person[] person, Person newPerson){
     Person[] person2 = Arrays.copyOf( person, person.length+1);
     person2[person2.length -1] = newPerson;
@@ -17,9 +15,6 @@ public static Person[] addPerson(Person[] person, Person newPerson){
 }
 
 
-
-
-//    Arrays.fill();
 
     public static void main(String[] args) {
         Person jeff = new Person("Jeff");
