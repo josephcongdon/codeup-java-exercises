@@ -15,9 +15,11 @@ public class Square extends Rectangle{
 
     @Override
     public double getPerimeter() {
+        System.out.println("perimeter: ");
         return 4 * side;
     }
     public double getArea() {
+        System.out.println("area: ");
         return Math.pow(side , 2);
     }
 
