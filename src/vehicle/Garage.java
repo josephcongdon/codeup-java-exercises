@@ -5,7 +5,7 @@ public class Garage {
         for(Vehicle vehicle: allVehiclesInGarage){
             System.out.println(vehicle.getName() + " goes ");
             vehicle.makeNoise();
-            System.out.println("your " + vehicle.getName() + " got hit ");
+            System.out.println("your " + vehicle.name + " got hit ");
             vehicle.makeAlarm();
         }
     }

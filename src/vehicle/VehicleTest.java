@@ -11,12 +11,16 @@ public class VehicleTest {
 
 //        Truck rivian = new Truck();
 //        rivian.setName("Rivian");
-        Vehicle rivian = new Truck("Rivian");
-        System.out.println(rivian.getName());
-        rivian.makeNoise();
+//        Vehicle rivian = new Truck("Rivian");
+//        System.out.println(rivian.getName());
+//        rivian.makeNoise();
+//
+//        Vehicle hilux = new Truck("Hilux");
+//        System.out.println(hilux.getName());
+//        hilux.makeNoise();
 
-        Vehicle hilux = new Truck("Hilux");
-        System.out.println(hilux.getName());
-        hilux.makeNoise();
+        Sedan mazda = new Sedan();
+        mazda.name = "mazda";
+        mazda.makeNoise();
     }
 }
