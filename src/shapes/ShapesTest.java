@@ -4,14 +4,13 @@ public class ShapesTest {
 
     public static void main(String[] args) {
 
-        Measurable myShape = new Rectangle(3,9);
+        Measurable  myShape = new Rectangle(3,9);
         Measurable square = new Square(6);
 //        System.out.println(myShape.getLength());
 //        System.out.println(myShape.getWidth());
 
         System.out.println(myShape.getArea());
         System.out.println(myShape.getPerimeter());
-
         System.out.println(square.getArea());
 
 //        System.out.printf("the area and the perimeter are %.2d%s%s", myShape.getArea(), myShape.getPerimeter());
