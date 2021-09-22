@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Input {
     private Scanner scanner;
     public String getString(){
-        System.out.println("Please enter a string: ");
+//        System.out.println("Please enter a string: ");
         String userInput = scanner.nextLine();
         return userInput;
     }
@@ -25,15 +25,15 @@ public class Input {
         return Integer.valueOf(s);
     }
 
-        public int getInt(int min, int max){
-            System.out.println("enter a number between " + min + " and " + max);
-            int userInput = scanner.nextInt();
-            if (userInput < min && userInput > max){
-                System.out.println("enter a number between " + min + " and " + max);
-                getInt(min, max);
-            }
-            return userInput;
-        }
+//        public int getInt(int min, int max){
+//            System.out.println("enter a number between " + min + " and " + max);
+//            int userInput = scanner.nextInt();
+//            if (userInput < min && userInput > max){
+//                System.out.println("enter a number between " + min + " and " + max);
+//                getInt(min, max);
+//            }
+//            return userInput;
+//        }
         public double getDouble(){
         System.out.println("Enter a number: ");
         return Double.valueOf(getString());
