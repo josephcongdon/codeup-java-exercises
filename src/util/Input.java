@@ -21,8 +21,8 @@ public class Input {
 
     public int getInt(){
         System.out.println("Enter an integer:");
-        int userInput = scanner.nextInt();
-        return userInput;
+        String s = getString();
+        return Integer.valueOf(s);
     }
 
         public int getInt(int min, int max){
@@ -36,8 +36,8 @@ public class Input {
         }
         public double getDouble(){
         System.out.println("Enter a number: ");
-        double userInput = scanner.nextDouble();
-        return userInput;
+        return Double.valueOf(getString());
+//        double userInput = scanner.nextDouble();
         }
 
 

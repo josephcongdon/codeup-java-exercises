@@ -7,7 +7,7 @@ public class InputTest {
         boolean yesNoResult = input.yesNo(userInput);
         System.out.println(yesNoResult ? "User said yes" : "User said no");
 //        Input newInput = new Input();
-        System.out.println(input.getInt(1,10));
+        System.out.println(input.getInt());
 
     }
 }
