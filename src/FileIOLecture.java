@@ -63,6 +63,9 @@ public class FileIOLecture {
 //        }
 
     }
+
+    public void readFileAndOutput(Path pathToOurFile) {
+    }
 }
 
 
