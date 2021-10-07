@@ -91,6 +91,10 @@ public class MethodsExercises {
 //        System.out.println("Congrats! " + userInput + " broke the cycle.");
         userChoice();
     }
+
+    public static double getRandomInt(int i, int i1) {
+        return Math.random();
+    }
 }
 
 
