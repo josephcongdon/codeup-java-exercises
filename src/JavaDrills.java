@@ -27,7 +27,29 @@ public class JavaDrills {
     }
 
     public static void main(String[] args) {
-        System.out.println( returnTotalDifference(new int []{1,2,3,4}, new int []{5,6,7,8}));
+//        System.out.println( returnTotalDifference(new int []{1,2,3,4}, new int []{5,6,7,8}));
+
+        System.out.println(flipInnerCase("HandBag"));
     }
+
+    public static String flipInnerCase(String input){
+        char[] chars = input.toCharArray();
+        for (int i = 0; i < chars.length; i++)
+        {
+            char c = chars[i];
+            if (Character.isUpperCase(c))
+            {
+                chars[i] = Character.toLowerCase(c);
+            }
+            else if (Character.isLowerCase(c))
+            {
+                chars[i] = Character.toUpperCase(c);
+            }
+        }
+        return new String(chars);
+
+    }
+    //    https://stackoverflow.com/questions/1729778/how-can-i-invert-the-case-of-a-string-in-java
+
 
 }
