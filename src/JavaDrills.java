@@ -29,12 +29,12 @@ public class JavaDrills {
     public static void main(String[] args) {
 //        System.out.println( returnTotalDifference(new int []{1,2,3,4}, new int []{5,6,7,8}));
 
-        System.out.println(flipInnerCase("HandBag"));
+        System.out.println(flipInnerCase("CaT"));
     }
 
     public static String flipInnerCase(String input){
         char[] chars = input.toCharArray();
-        for (int i = 0; i < chars.length; i++)
+        for (int i = 1; i < chars.length -1; i++)
         {
             char c = chars[i];
             if (Character.isUpperCase(c))
