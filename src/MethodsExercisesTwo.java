@@ -2,27 +2,33 @@ import java.util.Scanner;
 
 public class MethodsExercisesTwo {
 
-    double Addition(int a, int b){
+
+
+
+    public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+    int a = 0;
+    int b = 0;
+
+    double addition(a, b){
         return a + b;
     }
 
-    double Subtraction(int a, int b){
+    double subtraction(a, b){
         return a - b;
     }
 
-    double Multiply(int a, int b){
+    double multiply(a, b){
         return a * b;
     }
 
-    double divide(int a, int b){
+    double divide(a, b){
         if (b > a) return b / a;
         return a / b;
     }
 
-    Scanner scanner = new Scanner(System.in);
-
-
-    public static void main(String[] args) {
+    int sumTotal = addition() + subtraction() + multiply() + divide();
 
     }
 }
