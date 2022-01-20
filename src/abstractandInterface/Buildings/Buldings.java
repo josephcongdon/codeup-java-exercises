@@ -35,4 +35,8 @@ abstract class Buldings {
         this.age = age;
         this.type = type;
     }
+
+    public abstract void hours(int noOfHours);
+
+    public abstract void responseToComplaint(String response);
 }
