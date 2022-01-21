@@ -24,9 +24,4 @@ public class Cat extends Pets implements Feedable{
         System.out.println("Meow... coughs up hairball...");
     }
 
-    Cat tom = new Cat("Tom");
-
-    public Cat getTom() {
-        return tom;
-    }
 }

@@ -7,6 +7,10 @@ public class Dog extends Pets implements Feedable{
         this.name = name;
     }
 
+    @Override
+    public void eat() {
+        System.out.println("scarf");
+    }
 
     public void rest(int noOfHours) {
         for (int i = 0; i <= noOfHours; i += 1) {

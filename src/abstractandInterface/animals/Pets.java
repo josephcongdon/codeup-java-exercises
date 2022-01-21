@@ -11,4 +11,8 @@ abstract class Pets {
     public abstract void rest(int noOfHours);
 
     public abstract void responseToCommand(String command);
+
+    public void eat(){
+        System.out.println("munch");
+    };
 }
