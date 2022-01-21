@@ -22,8 +22,8 @@ public class Business extends Buldings implements Workable{
         System.out.println("This is a place of business");
     }
 
-    Business mcdonalds = new Business("mcdonalds",3,"restaurant");
 
-    Business walmart = new Business("walmart", 15, "retail");
+    public static void main(String[] args) {
 
+    }
 }
