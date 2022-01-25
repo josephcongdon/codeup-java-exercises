@@ -7,9 +7,6 @@ public class PetsTest{
         dog.eat();
         cat.eat();
 
-
-
-
     }
 
 }
