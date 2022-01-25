@@ -1,5 +1,11 @@
 package EnumExercise;
 
 public enum DaysOfTheWeek {
-    Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday;
+    Sunday,
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday;
 }
