@@ -11,6 +11,7 @@ public class EnumMain {
 //        }
 
         System.out.println(Toyotas.Corolla.typeOfCar);
+        System.out.println(Rivian.R1T.typeOfCar);
 
     }
 
